@@ -4,7 +4,7 @@ def save_img(path_of_imgfile,mode=1):
         newpath = shutil.copy(src=path_of_imgfile,dst="searched images")
 
     elif mode == 1:
-        newpath = shutil.move(src=path_of_imgfile, dst="E:/NANDAN/Redmi8 1 backup/WhatsApp/Media/WhatsApp Images/Private/NJ")
+        newpath = shutil.move(src=path_of_imgfile, dst="searched images")
 
     else:
         print("invalid mode entered")
